@@ -49,7 +49,7 @@ module.exports = {
     },
   },
   contracts_directory: "./contracts",
-  contracts_build_directory: "./src/configurations/abis/Generated",
+  contracts_build_directory: "./abis",
   plugins: ["truffle-plugin-verify"],
   api_keys: {
     bscscan: `${process.env.API_KEY}`,
